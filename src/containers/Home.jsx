@@ -1,5 +1,4 @@
 import React from 'react'
-import mainBg from '../assets/bg2.jpg'
 
 const Home = () => {
   return (

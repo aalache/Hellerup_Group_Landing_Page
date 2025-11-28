@@ -10,7 +10,7 @@ const Menu = ({toggleNav, setToggleNav}) => {
     <>
         {toggleNav && (
 
-            <div className='z-1000 bg-red-800/15  backdrop-blur-lg h-screen w-[70%] sm:w-[50%] absolute top-0 inset-0 px-2 py-3 sm:px-3 sm:py-5 slide-in'>
+            <div className='z-1000 bg-red-800/15  backdrop-blur-lg h-screen w-[70%] sm:w-[50%]  fixed inset-0 px-2 py-3 sm:px-3 sm:py-5 slide-in'>
                 
                 <CircleXIcon size={28} className='hover:scale-105 justify-self-end text-black hover:text-white transition-all duration-100 ease-in-out' onClick={() => setToggleNav(false)}/>
                 

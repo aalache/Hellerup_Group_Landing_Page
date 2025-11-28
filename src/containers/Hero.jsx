@@ -1,7 +1,8 @@
 
 const Hero = () => {
   return (
-    <div className="w-full z-0 h-screen  hero-bg  ">
+    
+      <div className="w-full  h-screen  hero-bg  ">
 
         <div className=" w-full h-full flex items-end justify-center px-2 py-8 sm:px-5 sm:py-5 lg:px-20 lg:py-10  ">
 
@@ -18,11 +19,10 @@ const Hero = () => {
                     </div>
                     <p className="text-[6vw] md:text-[6.5vw] lg:text-[4.5vw] p-2  md:py-0 bg-red-700 backdrop-blur-sm  w-fit  rounded-t-md  font-base  font-bold text-white text-shadow-md ">Fashion <span className="text-black"> & </span> Branding</p> 
                 </div>
-
-
         </div>
-        
-    </div>
+
+      </div>
+    
   )
 }
 
