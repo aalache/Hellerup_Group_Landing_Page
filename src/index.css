@@ -12,6 +12,7 @@
 @layer base {
   * {
     font-family: 'Michroma',sans-serif;
+    overflow-x: hidden;
   }
 }
 
