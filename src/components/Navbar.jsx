@@ -15,8 +15,8 @@ const Navbar = ({toggleNav,setToggleNav}) => {
 
         <ul className="hidden lg:flex gap-3">
             { navLinks.map((item ,index) => (
-                <a href="" className='h-full group p-2 '>
-                    <li key={index} className='text-gray-200 text-sm font-base font-bold group-hover:text-red-800 transition-all duration-150 ease-in-out'>{item}</li>
+                <a href="" key={`nav-link-${index}`} className='h-full group p-2 '>
+                    <li  className='text-gray-200 text-sm font-base font-bold group-hover:text-red-800 transition-all duration-150 ease-in-out'>{item}</li>
                     <div className='w-0 group-hover:w-full h-[2px] bg-red-800 relative top-2 transition-all duration-200 ease-in-out'/>
                 </a>
             ))}

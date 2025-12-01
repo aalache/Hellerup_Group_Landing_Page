@@ -7,7 +7,7 @@ import analysis from '../assets/analysis.jpg'
     // ---- Costmetics
 import belorDesign  from '../assets/brands/costmetics/belor_design.png'
 import botelab  from '../assets/brands/costmetics/botelab.png'
-import amule  from '../assets/brands/costmetics/amule.png'
+import cmiile  from '../assets/brands/costmetics/cmiile.png'
 import desio  from '../assets/brands/costmetics/desio.png'
 import icona  from '../assets/brands/costmetics/Icona.png'
 import iren  from '../assets/brands/costmetics/iren.webp'
@@ -30,35 +30,60 @@ import noble  from '../assets/brands/food_&_baverages/noble.png'
 import laurenDickinson  from '../assets/brands/perfume/lauren_dickinson.png'
 import orientica  from '../assets/brands/perfume/orientica.png'
 
+
+// brands backgrounds
+import belorDesignBg  from '../assets/brands/brand_bgs/belor_design_bg.jpeg'
+import blueWaterBg  from '../assets/brands/brand_bgs/blue_water_bg.jpeg'
+import botelabBg  from '../assets/brands/brand_bgs/botelab_bg.jpeg'
+import cmiileBg  from '../assets/brands/brand_bgs/cmiile_bg.jpeg'
+import desioBg  from '../assets/brands/brand_bgs/desio_bg.jpeg'
+import forStrongBg  from '../assets/brands/brand_bgs/for_strong_bg.webp'
+import iconaBg  from '../assets/brands/brand_bgs/icona_bg.jpeg'
+import irenBg  from '../assets/brands/brand_bgs/iren_bg.webp'
+import iumBg  from '../assets/brands/brand_bgs/ium_bg.jpeg'
+import laurenDickinsonBg  from '../assets/brands/brand_bgs/lauren_dickinson_bg.jpeg'
+import letItBeBg  from '../assets/brands/brand_bgs/let_it_be_bg.webp'
+import lybethrasBg  from '../assets/brands/brand_bgs/lybethras_bg.jpeg'
+import nobleBg  from '../assets/brands/brand_bgs/noble_bg.jpeg'
+import oneOneBg  from '../assets/brands/brand_bgs/one_one_bg.jpeg'
+import orienticaBg  from '../assets/brands/brand_bgs/orientica_bg.webp'
+import purodoreBg  from '../assets/brands/brand_bgs/purodore_bg.jpeg'
+import sabrinaMilanoBg  from '../assets/brands/brand_bgs/sabrina_milano_bg.jpeg'
+import squatWolfBg  from '../assets/brands/brand_bgs/squat_wolf_bg.jpeg'
+
+
 const brands = {
     cosmetics : [
-        belorDesign,
-        botelab,
-        amule,
-        desio,
-        icona,
-        iren,
-        ium,
-        purodore,
-        sabrinaMilano,
-
+        {logo: belorDesign, bg: belorDesignBg},
+        {logo: botelab, bg: botelabBg},
+        {logo: cmiile, bg: cmiileBg},
+        {logo: desio, bg: desioBg},
+        {logo: icona, bg: iconaBg},
+        {logo: iren, bg: irenBg},
+        {logo: ium, bg: iumBg},
+        {logo: purodore, bg: purodoreBg},
+        {logo: sabrinaMilano, bg: sabrinaMilanoBg},
     ],
     fashion : [
-        forStrong,
-        letItBe,
-        lybethras,
-        oneOne,
-        squatWolf,
+        {logo: forStrong, bg: forStrongBg},
+        {logo: letItBe, bg: letItBeBg},
+        {logo: lybethras, bg: lybethrasBg},
+        {logo: oneOne, bg: oneOneBg},
+        {logo: squatWolf, bg: squatWolfBg},
     ],
-    food_baverage: [
-        blueWater,
-        noble,
+    food__baverage: [
+        {logo: blueWater, bg: blueWaterBg},
+        {logo: noble, bg: nobleBg},
     ],
     perfume : [
-        laurenDickinson,
-        orientica,
+        {logo: laurenDickinson, bg: laurenDickinsonBg},
+        {logo: orientica, bg: orienticaBg},
     ]
 }
+
+const brands_bgs = [
+
+]
 
 export default {
     logo,
