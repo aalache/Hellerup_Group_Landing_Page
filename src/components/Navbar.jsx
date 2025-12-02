@@ -4,7 +4,7 @@ import { Menu } from 'lucide-react'
 
 const Navbar = ({toggleNav,setToggleNav}) => {
 
-    const navLinks = ["About Us", "Brands", "Subsidiaries","HUG Management", "Contact","Career"]
+    const navLinks = ["About Us", "Brands", "Subsidiaries","HUG Management", "Career","Contact"]
 
   return (
     <div className=" z-999 bg-red-800/0  backdrop-blur-lg w-full  lg:w-5xl xl:w-7xl fixed top-5 justify-self-center lg:rounded-lg  flex items-center justify-between ">
