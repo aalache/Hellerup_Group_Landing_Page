@@ -6,9 +6,9 @@ const About = () => {
     <div className="min-h-screen w-full  bg-black border-t-2 border-red-700 text-white">
       <div className="w-full max-w-7xl  mx-auto px-5 pt-15 pb-5  space-y-8">
         
-        <h2 className=" capitalize text-6xl font-semibold text-white">Who We Are</h2>
+        <h2 className=" capitalize text-6xl font-semibold text-white py-2 overflow-hidden">Who We Are</h2>
 
-        <div className="w-full  grid md:grid-cols-2 md:grid-rows-2 gap-5 ">
+        <div className="w-full overflow-hidden  grid md:grid-cols-2 md:grid-rows-2 gap-5 ">
           <div className="flex flex-col justify-center  gap-4 text-gray-300 ">
             <p >{aboutUsData[0].content}</p>
             <p>{aboutUsData[1].content}</p>
