@@ -51,6 +51,11 @@ import purodoreBg  from '../assets/brands/brand_bgs/purodore_bg.jpeg'
 import sabrinaMilanoBg  from '../assets/brands/brand_bgs/sabrina_milano_bg.jpeg'
 import squatWolfBg  from '../assets/brands/brand_bgs/squat_wolf_bg.jpeg'
 
+// importing hug management section images
+import pic1 from '../assets/hug_management/sports/pic1.png'
+import pic2 from '../assets/hug_management/sports/pic2.png'
+import pic3 from '../assets/hug_management/sports/pic3.png'
+import pic4 from '../assets/hug_management/sports/pic4.png'
 
 const brands = {
     cosmetics : [
@@ -81,13 +86,19 @@ const brands = {
     ]
 }
 
-const brands_bgs = [
-
-]
+const hug_images = {
+    sports: [
+        {id:1,image: pic1},
+        {id:2,image: pic2},
+        {id:4,image: pic4},
+        {id:3,image: pic3},
+    ]
+}
 
 export default {
     logo,
     companyGroup,
     analysis,
     brands,
+    hug_images,
 }

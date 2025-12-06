@@ -1,4 +1,4 @@
-import CareerCard from "../components/CareerCard"
+import {CareerCard} from "../components"
 import careerPaths from "../constants/career"
 
 
