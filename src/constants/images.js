@@ -57,6 +57,10 @@ import pic2 from '../assets/hug_management/sports/pic2.png'
 import pic3 from '../assets/hug_management/sports/pic3.png'
 import pic4 from '../assets/hug_management/sports/pic4.png'
 
+// flags images
+import franceFlag from '../assets/flag-france.jpg'
+import UkFlag from '../assets/uk-flag.jpg'
+
 const brands = {
     cosmetics : [
         {logo: belorDesign, bg: belorDesignBg},
@@ -95,10 +99,16 @@ const hug_images = {
     ]
 }
 
+const flags = {
+    france: {flag: franceFlag},
+    uk: {flag: UkFlag}
+}
+
 export default {
     logo,
     companyGroup,
     analysis,
     brands,
     hug_images,
+    flags,
 }

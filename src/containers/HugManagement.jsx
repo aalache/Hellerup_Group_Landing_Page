@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next"
 import { ImageCard } from "../components"
 import { hugData, images } from "../constants"
 
@@ -5,13 +6,13 @@ import { hugData, images } from "../constants"
 const HugManagement = () => {
 
   const category = images.hug_images.sports
- 
+  const {t,i18n} = useTranslation();
 
   return (
-    <section className="min-h-screen w-full  bg-white">
+    <section id="management" className="min-h-screen w-full  bg-white">
       <div className="max-w-7xl py-10 px-2 sm:px-5 mx-auto space-y-10">
         <div className="space-y-1">
-          <h2 className="capitalize text-4xl md:text-5xl pb-3 font-semibold overflow-hidden">HUG Management</h2>
+          <h2 className="capitalize text-4xl md:text-5xl pb-3 font-semibold overflow-hidden">{t('headers.management')}</h2>
           <h3 className="text-gray-700">THE LEADING TALENTS AGENCY</h3>
         </div>
 
@@ -19,7 +20,7 @@ const HugManagement = () => {
           {/* text */}
           <ul className="flex flex-col gap-4 ">
             {hugData.map((item,index) => (
-              <li key={index} className={index %2 !== 0 ? "bg-[#f8f9fa] border-l-3 rounded-md border-red-800 p-2 shadow-sm text-[13px] md:text-[14.5px]" : "text-gray-600 text-sm md:text-[15px] p-2"}> {item.content} </li>
+              <li key={index} className={index %2 !== 0 ? "bg-[#f8f9fa] border-l-3 rounded-md border-red-800 p-2 shadow-sm text-[13px] md:text-[14.5px]" : "text-gray-600 text-sm md:text-[15px] p-2"}> {t(`hugManagement.${index}.content`)} </li>
             ))}
           </ul>
           {/* images */}

@@ -1,0 +1,123 @@
+
+{
+    "nav": {
+      "about": "À propos de nous",
+      "brands": "Marques",
+      "subsidiaries": "Filiales",
+      "management": "HUG Management",
+      "career": "Carrière",
+      "contact": "Contact"
+    },
+  
+    "headers": {
+      "hero": "Mode & Branding",
+      "about": "Qui sommes-nous",
+      "brands": "Marques",
+      "subsidiaries": "Filiales",
+      "management": "HUG Management",
+      "career": {
+        "sectionTitle": "Carrière",
+        "subtitle": "Découvrez votre avenir",
+        "slogan": "Faites partie de notre écosystème"
+      },
+      "contact": "Contact"
+    },
+  
+    "aboutUs": {
+      "0": "Hellerup Group est une holding opérant des franchises internationales depuis 2022.",
+      "1": "Notre siège social est basé à Bruxelles (Quartier Européen), Belgique, ainsi qu’à Rabat, Maroc, opérant sur les marchés du Belux et de l’Afrique du Nord.",
+      "2": "Nous sommes distributeur officiel dans les industries suivantes : mode, alimentation & boissons, articles de sport, beauté et cosmétiques, avec des marques présentes dans 15 pays, dont le Danemark, la Norvège, la Finlande, le Royaume-Uni, la Belgique, la France, l’Italie, la Slovénie, la Biélorussie, la Russie, le Maroc, la Colombie, le Brésil, les Émirats arabes unis et le Japon.",
+      "3": "Aujourd’hui, nous développons notre propre franchise de coffee shop et d’autres franchises verront bientôt le jour."
+    },
+  
+    "hugManagement": [
+      {
+        "content": "Nous révélons le potentiel des talents d’aujourd’hui pour créer les icônes de demain."
+      },
+      {
+        "content": "\"HUG\" est un leader dans la gestion artistique, du divertissement et du sport. Situé au cœur des talents, du contenu et des marques."
+      },
+      {
+        "content": "Nous offrons des opportunités inégalées aux trendsetters, leaders d’opinion et storytellers qui influencent la culture populaire."
+      },
+      {
+        "content": "Nous connectons artistes, athlètes, personnalités publiques et marques afin de créer des opportunités de revenus et de marketing, incluant des partenariats de sponsoring, des apparitions, des activations, des moments historiques, ainsi que des collaborations digitales et sociales."
+      },
+      {
+        "content": "En tant que « première agence de gestion artistique et sportive au Maroc », HUG représente des artistes de premier plan et des athlètes prolifiques dans des sports majeurs tels que le tennis, le padel, le surf et bodyboard, le karting, le football et les sports de combat."
+      },
+      {
+        "content": "Nous avons prouvé notre expertise en collaborant avec des marques internationales afin de créer des partenariats à long terme réussis."
+      },
+      {
+        "content": "HUG collabore avec des fédérations, des comités olympiques, des ligues, des clubs, des conseils d’administration, des dirigeants sportifs et des organisations du secteur privé."
+      }
+    ],
+  
+    "brands": {
+      "cosmetics": "cosmétiques",
+      "fashion": "mode",
+      "food__baverage": "alimentation & boissons",
+      "perfume": "parfums"
+    },
+  
+    "career": [
+      {
+        "title": "Assistant Manager (F)",
+        "dept": "Opérations",
+        "location": "Dubaï, EAU",
+        "description":
+          "Assister dans les activités opérationnelles quotidiennes, superviser le personnel, gérer les plannings et coordonner avec les départements pour assurer le bon déroulement des opérations.",
+        "requirements": [
+          "Licence en commerce ou domaine similaire",
+          "2–4 ans d’expérience en gestion ou en supervision",
+          "Excellentes compétences en communication et en leadership",
+          "Capacité à gérer plusieurs tâches et à résoudre les problèmes"
+        ],
+        "type": "Temps plein"
+      },
+      {
+        "title": "Représentant Commercial (H/F)",
+        "dept": "Ventes",
+        "location": "Abou Dhabi, EAU",
+        "description":
+          "Interagir avec les clients, promouvoir les produits/services, atteindre les objectifs mensuels de vente et maintenir de solides relations avec la clientèle.",
+        "requirements": [
+          "Une expérience préalable en vente est préférée",
+          "Excellentes compétences en négociation et communication",
+          "Capacité à travailler dans un environnement axé sur les objectifs",
+          "Personnalité amicale et dynamique"
+        ],
+        "type": "Temps plein"
+      },
+      {
+        "title": "Ambassadrice de Marque (F)",
+        "dept": "Marketing",
+        "location": "Dubaï, EAU",
+        "description":
+          "Représenter la marque lors d’événements, interagir avec les clients, promouvoir les campagnes et maintenir une image positive de la marque.",
+        "requirements": [
+          "Excellentes compétences en prise de parole et présentation",
+          "Allure confiante et professionnelle",
+          "Une expérience en promotion ou mannequinat est un plus",
+          "Capacité à interagir avec un large public"
+        ],
+        "type": "Temps partiel / Temps plein"
+      },
+      {
+        "title": "Relations Publiques (H/F)",
+        "dept": "Communication",
+        "location": "Sharjah, EAU",
+        "description":
+          "Gérer les relations médias, préparer les communiqués de presse, organiser les événements RP et maintenir l’image publique de l’entreprise.",
+        "requirements": [
+          "Licence en relations publiques, communication ou domaine similaire",
+          "1–3 ans d’expérience en RP ou communication médiatique",
+          "Excellentes compétences rédactionnelles et en storytelling",
+          "Compétences professionnelles en communication et en réseautage"
+        ],
+        "type": "Temps plein"
+      }
+    ]
+}
+  

@@ -2,12 +2,12 @@ import { images } from "../constants"
 
 const Contact = () => {
   return (
-    <div className=" w-full contact-bg   ">
+    <section id="contact" className=" w-full contact-bg   ">
         <div className="full  h-full py-5   bg-[#000814]/70 backdrop-blur-sm rounded-t-md">
 
             <div className="max-w-7xl mx-auto space-y-7 ">
                 {/* logo */}
-                <div className=" h-[8vh] w-full overflow-hidden bg-gradient-to-r from-black via-white to-black rounded-sm  flex items-center justify-center  ">
+                <div className=" h-[8vh] w-full overflow-hidden bg-linear-to-r from-black via-white to-black rounded-sm  flex items-center justify-center  ">
                     <img src={images.logo} alt="logo" className=""  />
                 </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
             </div>
 
         </div>
-    </div>
+    </section>
   )
 }
 

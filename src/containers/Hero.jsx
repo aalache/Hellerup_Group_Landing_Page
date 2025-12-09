@@ -17,7 +17,7 @@ const Hero = () => {
                         <span className="bg-white backdrop-blur-sm  rounded-t-md px-3  w-fit ">HUG</span>
                         <span className="bg-white backdrop-blur-sm rounded-t-md px-3 w-fit ">MANAGEMENT</span>
                     </div>
-                    <p className="text-[6vw] md:text-[6.5vw] lg:text-[4.5vw] p-2  md:py-0 bg-red-700 backdrop-blur-sm  w-fit  rounded-t-md  font-base  font-bold text-white text-shadow-md ">Fashion <span className="text-black"> & </span> Branding</p> 
+                    <p className="text-[6vw] md:text-[6.5vw] lg:text-[4.5vw] p-2  md:py-0 bg-red-700 backdrop-blur-sm  w-fit  rounded-t-md  font-base  font-bold text-white text-shadow-md capitalize ">Fashion <span className="text-black"> & </span> Branding</p> 
                 </div>
         </div>
 

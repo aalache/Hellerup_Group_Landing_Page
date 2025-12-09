@@ -1,0 +1,122 @@
+{
+    "nav": {
+        "about": "About Us",
+        "brands": "Brands",
+        "subsidiaries": "Subsidiaries",
+        "management": "HUG Management",
+        "career": "Career",
+        "contact": "Contact"
+    },
+
+    "headers": {
+        "hero": "Fashion & Branding",
+        "about": "Who We Are",
+        "brands": "Brands",
+        "subsidiaries": "Subsidiaries",
+        "management": "HUG Management",
+        "career": {
+            "sectionTitle": "Career",
+            "subtitle": "Discover your Future",
+            "slogan": "Be a part of our ecosystem"
+        },
+        "contact": "Contact"
+    },
+
+    "aboutUs": {
+        "0": "Hellerup Group is a leading franchise operator holding company representing international brands since 2022.",
+        "1": "Our holding company is based in Brussels (European District), Belgium and Rabat, Morocco, operating in the Belux and Northern Africa markets.",
+        "2": "We are official brands distributor in the following industries; fashion, food & beverages, sporting goods, beauty and cosmetics with brands across 15 countries including Denmark, Norway,Finland, UK, Belgium, France, Italy, Slovenia, Belarus, Russia, Morocco, Colombia, Brazil, UAE,Japan.",
+        "3": "Today We are developing our own Coffee shop franchise and shortly thereafter other franchise will soon emerge."
+    },
+
+    "hugManagement": [
+        {
+            "content": "We reveal the potential of today’s talent to build the icons of tomorrow."
+        },
+        {
+            "content": "\"HUG\" is a leader in art, entertainment, and sports management. Located at the heart of talent, content, and brands."
+        },
+        {
+            "content": "We offer unparalleled opportunities to trendsetters, opinion leaders, and storytellers who shape popular culture."
+        },
+        {
+            "content": "We connect artists, athletes, public figures, and brands to create extensive revenue and marketing opportunities, including sponsorship partnerships, appearances, activations, historic moments, as well as digital and social collaborations."
+        },
+        {
+            "content": "As the “first artistic and sports management agency in Morocco,” HUG represents top artists and prolific athletes across major sports such as tennis, padel, surfing and bodyboarding, karting, football, and combat sports."
+        },
+        {
+            "content": "We have proven our expertise by working with international brands to create successful long-term partnerships."
+        },
+        {
+            "content": "HUG collaborates with federations, Olympic committees, leagues, clubs, boards of directors, sports executives, and private-sector organizations."
+        }
+    ],
+
+    "brands":{
+        "cosmetics": "cosmetics",
+        "fashion": "fashion",
+        "food__baverage": "food & baverage",
+        "perfume": "perfume"
+    },
+
+    "career": [
+        {
+          "title": "Assistant Manager (F)",
+          "dept": "Operations",
+          "location": "Dubai, UAE",
+          "description":
+            "Assist in daily operational activities, supervise staff, manage schedules, and coordinate with departments to ensure smooth operations.",
+          "requirements": [
+            "Bachelor’s degree in Business or related field",
+            "2–4 years of experience in management or supervisory roles",
+            "Strong communication and leadership skills",
+            "Ability to handle multitasking and problem-solving"
+          ],
+          "type": "Full-time"
+        },
+        {
+          "title": "Sales Representative (M/F)",
+          "dept": "Sales",
+          "location": "Abu Dhabi, UAE",
+          "description":
+            "Engage with customers, promote products/services, meet monthly sales targets, and maintain strong client relationships.",
+          "requirements": [
+            "Previous experience in sales is preferred",
+            "Excellent negotiation and communication skills",
+            "Ability to work in a target-driven environment",
+            "Friendly and outgoing personality"
+          ],
+          "type": "Full-time"
+        },
+        {
+          "title": "Brand Ambassador (F)",
+          "dept": "Marketing",
+          "location": "Dubai, UAE",
+          "description":
+            "Represent the brand at events, interact with customers, promote campaigns, and maintain a positive brand image.",
+          "requirements": [
+            "Strong public speaking and presentation skills",
+            "Confident and professional appearance",
+            "Experience in promotions or modeling is a plus",
+            "Ability to engage with a wide audience"
+          ],
+          "type": "Part-time / Full-time"
+        },
+        {
+          "title": "Public Relations (M/F)",
+          "dept": "Communications",
+          "location": "Sharjah, UAE",
+          "description":
+            "Manage media relations, prepare press releases, organize PR events, and maintain the company’s public image.",
+          "requirements": [
+            "Bachelor’s degree in PR, Communications, or related field",
+            "1–3 years of PR or media communication experience",
+            "Strong writing and storytelling abilities",
+            "Professional communication and networking skills"
+          ],
+          "type": "Full-time"
+        }
+    ]
+
+}
