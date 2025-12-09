@@ -26,13 +26,13 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: url('/model3.jpg') center top / cover no-repeat;
+    background: url('/model3.webp') center top / cover no-repeat;
     filter: grayscale(100%);
     z-index: -1;
   }
 
   .contact-bg {
-    background: url('/building.jpg') center top / cover no-repeat ;
+    background: url('/building.webp') center top / cover no-repeat ;
     object-fit: cover;
   }
 

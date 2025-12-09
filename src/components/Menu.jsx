@@ -33,7 +33,7 @@ const Menu = ({toggleNav, setToggleNav}) => {
 
                     <ul className="flex flex-col gap-3 px-5 pt-5">
                         { navLinksKeys.map((key ,index) => (
-                            <a href={`#${key}`} className='h-full group p-2 '>
+                            <a href={`#${key}`} className='h-full group p-2 ' onClick={() => setToggleNav(false)}>
                                 <li key={index} className='text-gray-200 text-sm font-base font-bold group-hover:text-red-800 transition-all duration-150 ease-in-out'>{t(`nav.${key}`)}</li>
                                 <div className='w-0 group-hover:w-full h-[2px] bg-red-800 relative top-2 transition-all duration-300 ease-in-out'/>
                             </a>

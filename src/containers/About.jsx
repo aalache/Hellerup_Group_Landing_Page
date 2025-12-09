@@ -20,11 +20,11 @@ const About = () => {
             <p>{t(`aboutUs.1`)}</p>
           </div>
 
-          <div className="bg-red-200  max-h-[36vh] md:max-h-[45vh] lg:max-h-[36vh] rounded-sm overflow-hidden hover:scale-105 transition-all duration-100 ease-in-out">
+          <div className="bg-gray-800/50  max-h-[36vh] md:max-h-[45vh] lg:max-h-[36vh] rounded-sm overflow-hidden hover:scale-105 transition-all duration-100 ease-in-out">
             <img src={images.companyGroup} alt="company group" className="w-full h-full object-cover"/>
           </div>
 
-          <div className="bg-red-100 max-h-[36vh] md:max-h-[45vh] lg:max-h-[36vh] rounded-sm overflow-hidden hover:scale-105 transition-all duration-100 ease-in-out ">
+          <div className="bg-gray-800/50 max-h-[36vh] md:max-h-[45vh] lg:max-h-[36vh] rounded-sm overflow-hidden hover:scale-105 transition-all duration-100 ease-in-out ">
             <img src={images.analysis} alt="company analysis" className="w-full h-full object-cover" />
           </div>
 
