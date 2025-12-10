@@ -52,10 +52,19 @@ import sabrinaMilanoBg  from '../assets/brands/brand_bgs/sabrina_milano_bg.webp'
 import squatWolfBg  from '../assets/brands/brand_bgs/squat_wolf_bg.webp'
 
 // importing hug management section images
-import pic1 from '../assets/hug_management/sports/pic1.webp'
-import pic2 from '../assets/hug_management/sports/pic2.webp'
-import pic3 from '../assets/hug_management/sports/pic3.webp'
-import pic4 from '../assets/hug_management/sports/pic4.webp'
+    // Sports
+import sports_pic1 from '../assets/hug_management/sports/pic1.webp'
+import sports_pic2 from '../assets/hug_management/sports/pic2.webp'
+import sports_pic3 from '../assets/hug_management/sports/pic3.webp'
+import sports_pic4 from '../assets/hug_management/sports/pic4.webp'
+
+    // Fashion
+import fashion_pic1 from '../assets/hug_management/fashion/pic1.webp'
+import fashion_pic2 from '../assets/hug_management/fashion/pic2.webp'
+import fashion_pic3 from '../assets/hug_management/fashion/pic3.webp'
+import fashion_pic4 from '../assets/hug_management/fashion/pic4.webp'
+import fashion_pic5 from '../assets/hug_management/fashion/pic5.webp'
+import fashion_pic6 from '../assets/hug_management/fashion/pic6.webp'
 
 // importing subsidiaries images
 import donaHills from '../assets/subsidiaries/dona_hills.webp'
@@ -95,11 +104,21 @@ const subsidiaries = [
 
 const hug_images = {
     sports: [
-        {id:1,image: pic1},
-        {id:2,image: pic2},
-        {id:4,image: pic4},
-        {id:3,image: pic3},
-    ]
+        {id:1,image: sports_pic1},
+        {id:2,image: sports_pic2},
+        {id:4,image: sports_pic4},
+        {id:3,image: sports_pic3},
+    ],
+    fashion: [
+        {id:1,image: fashion_pic1},
+        {id:2,image: fashion_pic2},
+        {id:3,image: fashion_pic3},
+        {id:4,image: fashion_pic4},
+        {id:5,image: fashion_pic5},
+        {id:6,image: fashion_pic6},
+    ],
+    cinema: [],
+    music: [],
 }
 
 

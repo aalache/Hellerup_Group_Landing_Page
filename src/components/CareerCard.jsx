@@ -2,7 +2,7 @@
 const CareerCard = ({ title,dept,location,description }) => {
 
   return (
-    <div className="p-3  bg-red-950/40 hover:bg-red-950/70 backdrop-blur-md transition-all duration-150 rounded-md group">
+    <div className="p-3  bg-red-950/70 sm:bg-red-950/40 hover:bg-red-950/70 backdrop-blur-md transition-all duration-150 rounded-md group">
         {/* Job Title */}
         <h2 className="text-lg sm:text-xl font-bold text-gray-400 group-hover:text-gray-200 transition-all duration-100 mb-2">{title}</h2>
 

@@ -1,12 +1,19 @@
 import { useTranslation } from "react-i18next"
 import { ImageCard } from "../components"
 import { hugData, images } from "../constants"
+import { useState,useEffect } from "react"
 
 
 const HugManagement = () => {
 
-  const category = images.hug_images.sports
+  const [categoryImages,setCategoryImages] = useState(images.hug_images.sports)
   const {t,i18n} = useTranslation();
+
+  const [activeCategory, setActiveCategory] = useState('fashion')
+
+  useEffect(() => {
+    setCategoryImages(images.hug_images[activeCategory])
+  },[activeCategory])
 
   return (
     <section id="management" className="min-h-screen w-full  bg-white">
@@ -16,20 +23,39 @@ const HugManagement = () => {
           <h3 className="text-gray-700">THE LEADING TALENTS AGENCY</h3>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-2">
           {/* text */}
           <ul className="flex flex-col gap-4 ">
-            {hugData.map((item,index) => (
+
+            {hugData.hugText.map((item,index) => (
               <li key={index} className={index %2 !== 0 ? "bg-[#f8f9fa] border-l-3 rounded-md border-red-800 p-2 shadow-sm text-[13px] md:text-[14.5px]" : "text-gray-600 text-sm md:text-[15px] p-2"}> {t(`hugManagement.${index}.content`)} </li>
             ))}
+
           </ul>
+
           {/* images */}
-          <div className="grid grid-cols-4   gap-1">
-             {category.map((item,index) => (
-              // <img src={item.image} alt="" />
-              <ImageCard key={index} {...item}/>
-             ))}
+          <div className="space-y-5 flex flex-col items-center justify-center">
+            {/* categories */}
+            <div className="flex  w-full items-center justify-center gap-2 sm:gap-5 ">
+
+              {hugData.hugCategories.map((item,index)=> (
+                <button key={index} onClick={() => setActiveCategory(item)} className={activeCategory === item ? 'bg-black text-white font-semibold shadow-md px-2 sm:px-3 py-1.5 rounded-md text-sm'  : "bg-gray-200/50 px-2 sm:px-3 py-1.5 rounded-md text-sm"} >
+                  {t(`hugCategories.${item}`)}
+                </button>
+              ))}
+
+            </div>
+
+            <div className="grid grid-cols-4   gap-1">
+
+              {categoryImages.map((item,index) => (
+                <ImageCard key={index} {...item} category={activeCategory}/>
+              ))}
+
+            </div>
+
           </div>
+
         </div>
 
       </div>

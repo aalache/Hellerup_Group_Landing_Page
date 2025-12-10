@@ -1,4 +1,4 @@
-const hugData = [
+const hugText = [
     {
         content: "We reveal the potential of today’s talent to build the icons of tomorrow."
     },
@@ -22,7 +22,14 @@ const hugData = [
     }
 ]
 
-export default hugData;
+const hugCategories = [
+    "sports","fashion","cinema","music"
+]
+
+export default {
+    hugText,
+    hugCategories
+}
 
 
 

@@ -7,7 +7,7 @@ const Subsidiaries = () => {
     const subsidiaries = images.subsidiaries;
 
   return (
-    <section className="w-full bg-black shadow-xl">
+    <section id="subsidiaries" className="w-full bg-black shadow-xl">
         <div className="w-full max-w-7xl  mx-auto px-1 py-10 sm:px-5 sm:py-15 space-y-8">
             <h2 className="capitalize text-4xl md:text-5xl pb-3 font-semibold overflow-hidden text-white ">{t(`headers.subsidiaries`)}</h2>
             <div className="w-full flex h-50 ">

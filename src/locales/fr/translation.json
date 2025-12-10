@@ -30,6 +30,13 @@
       "3": "Aujourd’hui, nous développons notre propre franchise de coffee shop et d’autres franchises verront bientôt le jour."
     },
   
+    "hugCategories": {
+      "sports": "Sports",
+      "fashion": "Mode",
+      "cinema": "Cinéma",
+      "music": "Musique"
+    },
+
     "hugManagement": [
       {
         "content": "Nous révélons le potentiel des talents d’aujourd’hui pour créer les icônes de demain."

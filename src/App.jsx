@@ -1,11 +1,23 @@
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
-import {Menu, Navbar} from './components'
+import {Loading, Menu, Navbar} from './components'
 import {About, Hero,Brands,Contact, Career, HugManagement, Subsidiaries} from './containers'
 
 function App() {
   const [toggleNav, setToggleNav] = useState(false)
+  const [loading,setLoading] = useState(true);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setLoading(false);
+    },1500)
+  },[])
+
+  if(loading){
+    return <Loading/>
+  }
+
   return (
     <div className=' '>
       <Navbar toggleNav={toggleNav} setToggleNav={setToggleNav}/>
@@ -17,7 +29,6 @@ function App() {
       <HugManagement/>
       <Career/>
       <Contact/>
-
     </div>
   )
 }
